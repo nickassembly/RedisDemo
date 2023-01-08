@@ -23,3 +23,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+// Docker Redis command
+// docker run --name my-redis -p 6379:6379 -d redis
